@@ -1,0 +1,7 @@
+spring:
+  kafka: 
+    # - kafka-0 in localhost:9092 : 
+    bootstrap-servers: localhost:9092
+    listener:
+      poll-timeout: 3000
+      concurrency: 3
